@@ -1,0 +1,58 @@
+.main-form {
+  display: block;
+  background-color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 25px 35px 100px 35px;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #C0E0DE;
+  margin:50px 0px; padding:0px;
+}
+
+.instructions{
+  font-family: "Indie Flower", cursive;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.empty{
+  height: 75px;
+}
+
+input[type=button], input[type=submit] {
+  background-color: #4F7CAC;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-submit {
+  margin-right: 35px;
+  float:left;
+  vertical-align: middle;
+}
+
+.error-message {
+  font-size: 12px;
+  color: red;
+  margin-left: 50px;
+}
+
+.success-message {
+  font-size: 12px;
+  color: green;
+  margin-left: 50px;
+}

@@ -1,0 +1,36 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+table th {
+  text-align: left;
+  background-color: #3a6070;
+  color: #FFF;
+  padding: 4px 30px 4px 8px;
+}
+
+table td {
+  border: 1px solid #e3e3e3;
+  padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #e7edf0;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.instructions {
+  font-family: "Indie Flower", cursive;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.empty {
+  height: 35px;
+}
